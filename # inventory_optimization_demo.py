@@ -1,28 +1,4 @@
-# inventory_optimization_demo.py
-"""
-Inventory Optimization Demo (Python)
------------------------------------
-A simple, self-contained Python script that:
-  1) Simulates daily demand for a few SKUs
-  2) Forecasts demand (moving average + simple exponential smoothing)
-  3) Computes EOQ, Safety Stock, and Reorder Point per SKU
-  4) Runs a basic Monte Carlo stockout simulation to assess service level
-  5) Plots demand and inventory position over time
-
-No external data files or non-standard packages required.
-
-How to run:
-  $ python3 inventory_optimization_demo.py
-
-What this demonstrates (resume-ready):
-  - Demand forecasting (basic time-series smoothing)
-  - Inventory control policies (EOQ, safety stock, reorder point)
-  - Service level simulation under demand and lead time variability
-  - Data analysis and plotting with pandas/matplotlib
-
-Author: You (replace with your name)
-"""
-
+# Inventory Optimization Demo (Python)
 import math
 import random
 from dataclasses import dataclass
