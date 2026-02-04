@@ -1,4 +1,4 @@
-# inventory-optimization-python
+# Inventory Optimization Python
 Python-based Inventory Optimization Model (Demand forecasting, EOQ, Safety Stock, ROP, Monte Carlo Simulation).
 
 A simple, self-contained Python project for supply chain analytics.  
